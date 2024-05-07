@@ -1,10 +1,22 @@
+import Vehiculos.Camion;
+import Vehiculos.Carro;
+import Vehiculos.Limites;
+import Vehiculos.Mula;
+
 public class Main {
 
     public static void main(String[] args) {
-        Comparendo comparendo =  new Comparendo();
-        comparendo.construirFotoMulta(80, "CARRO");
-        comparendo.construirFotoMulta(200, "MULA");
-        comparendo.construirFotoMulta(40, "CAMION");
-        comparendo.construirFotoMulta(40, "AVION");
+
+        Carro carro = new Carro();
+        carro.construirFotoMulta(80, "Carro");
+
+        System.out.println("**************************************");
+        Mula mula = new Mula();
+        mula.construirFotoMulta(115, "Mula");
+
+        System.out.println("**************************************");
+        Camion camion = new Camion();
+        camion.construirFotoMulta(74, "Camion");
+
     }
 }
