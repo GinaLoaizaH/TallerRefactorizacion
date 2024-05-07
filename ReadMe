@@ -1,0 +1,3 @@
+Se creó una clase padre llamada Limites, clase extendida a sus clases hijas Camion, Carro y Mula
+Estas clases heredan los metodos de la clase Limite y nos evitamos tener que repetir el código
+multiples veces
